@@ -1,0 +1,18 @@
+/* Black background for the cube to spin in */
+body {
+  background-color: #000000;
+}
+
+/* Centre the cube vertically and horizontally in the display */
+canvas {
+    padding  : 0;
+    margin   : auto;
+    display  : block;
+    position : absolute;
+    width    : 370px;
+    height   : 370px;
+    top      : 0;
+    bottom   : 0;
+    left     : 0;
+    right    : 0;
+}
